@@ -1,0 +1,180 @@
+body {
+    height: 100vh;
+    background-attachment: fixed;
+   
+    
+}
+nav{
+    
+    height: 60px;
+    background-color: black;
+    position: sticky;
+   
+}
+nav, a {
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(232, 219, 190);
+    
+
+    
+    
+    
+}
+
+
+.nav a:hover {
+    background-color: rgb(179, 101, 101);
+}
+a:visited {
+    background-color: rgb(179, 101, 101);
+}
+
+.nav .active, a:active {
+    background-color:rgb(179, 101, 101);
+}
+.hero-text {
+    text-align: center; 
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+.hero_image {
+    background-image: url("img/My_image.jpg") ;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    margin-top: 4px;
+    position: sticky;
+    
+    
+    
+
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    padding-right: 20px;
+}
+
+article, p {
+    background-color:rgb(179, 101, 101);
+    height: 50px;
+    text-align: center;
+    padding: 0px;
+
+    
+
+}
+
+
+article{
+
+  height: auto;
+  padding: 20px;
+    
+}
+
+article, figure{
+    float: left;
+    
+    padding: 20px;
+}
+
+
+
+header {
+    background-color:rgb(255, 191, 107);
+    text-align: center;
+    height: 8%;
+    color:rgb(12, 12, 12);
+    padding-top: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.Contact_form {
+    
+    height: 80%;
+    
+    background-color: rgb(179, 101, 101); 
+    text-align: center;
+    
+
+
+}
+input{
+    margin: 20px;
+}
+input [type=text], textarea {
+    width: 50%;
+    padding: 20px;
+   
+}
+footer {
+    height: auto;
+    background:rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+    
+  
+
+}
+.footer {
+  padding: 10px;
+  text-align: center;
+  height: auto;
+
+ 
+}
+
+
+ol li {
+    display: inline;
+    position: center;
+    list-style-type: none;
+    padding: 5px;
+}
+
+
+.paragraph {
+    position: absolute;
+    bottom: 50%;
+    left: 16px;
+    width: 30%;
+    background: none;
+    font-size: large;
+    color: white;
+
+}
+
+
+.paragraph2 {
+    background: none;
+
+    
+}
+.about_Pokhara {
+    display: inline-block;
+    background-color: wheat;
+    height: auto;
+}
+
+
+
+
+
+
+
+ 
+  
+
+
+ 
+
